@@ -12,6 +12,6 @@ There are various tools for interacting with PDF metadata.
 
 Many tools, including Apple's Preview and DEVONthink, do not allow easy access to custom metadata. But you can view it using Adobe Acrobat. Select File->Document Properties->Custom.
 
-For getting and setting custom metadata, I have used the PDFReader and PDFWriter classes of the [PyPDF library](https://pypi.org/project/PyPDF2/1.23/). 
+For getting and setting custom metadata, I have used the PDFReader and PDFWriter classes of the [PyPDF library](https://pypi.org/project/pypdf/). 
 
 You can also use [ExifTool](https://github.com/exiftool/exiftool) by Phil Harvey, which is available as either a Perl module, or a standalone commandline executable. 
