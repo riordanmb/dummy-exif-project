@@ -38,7 +38,6 @@ def generate_random_metadata():
 
 
 # Function to set custom metadata in a PDF document
-# Function to set custom metadata in a PDF document
 def set_pdf_metadata(filepath, organization, custom_metadata):
     with open(filepath, 'rb') as file:
         reader = PdfReader(file)
